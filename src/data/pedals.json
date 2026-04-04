@@ -98,7 +98,7 @@
     "power_V": "9V",
     "power_mA": "20mA",
     "power_polarity": "negative",
-    "bypass_type": "",
+    "bypass_type": "true bypass",
     "midi": false,
     "presets": false,
     "doc": "/docs/pedals/dod_boneshaker.md"
