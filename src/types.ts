@@ -3,8 +3,8 @@ export interface Pedal {
   name: string
   type: string
   ad: string
-  power_V: number
-  power_mA: number
+  power_V: string
+  power_mA: string
   power_polarity: string
   bypass_type: string
   midi: boolean
