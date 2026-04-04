@@ -2,7 +2,6 @@
   {
     "id": "eventide_pitchfactor",
     "name": "Eventide PitchFactor",
-    "brand": "Eventide",
     "type": "harmonizer",
     "digital": true,
     "stereo": true,
@@ -12,13 +11,11 @@
     "bypass_type": "switchable",
     "midi": true,
     "presets": true,
-    "expression_input": null,
     "doc": "/docs/pedals/pitchfactor.md"
   },
   {
     "id": "ehx_pog2",
     "name": "EHX Pog2",
-    "brand": "EHX",
     "type": "octaver",
     "digital": true,
     "stereo": false,
@@ -28,13 +25,11 @@
     "bypass_type": "true bypass",
     "midi": false,
     "presets": true,
-    "expression_input": null,
     "doc": "/docs/pedals/pog2.md"
   },
   {
     "id": "strymon_bigsky",
     "name": "Strymon BigSky",
-    "brand": "Strymon",
     "type": "reverb",
     "digital": true,
     "stereo": true,
@@ -44,7 +39,6 @@
     "bypass_type": "switchable",
     "midi": true,
     "presets": true,
-    "expression_input": null,
     "doc": "/docs/pedals/bigsky.md"
   }
   

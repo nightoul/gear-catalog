@@ -1,7 +1,6 @@
 export interface Pedal {
   id: string
   name: string
-  brand: string
   type: string
   digital: boolean
   stereo: boolean
@@ -11,6 +10,5 @@ export interface Pedal {
   bypass_type: string
   midi: boolean
   presets: boolean
-  expression_input: boolean | null
   doc: string
 }
