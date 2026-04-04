@@ -32,14 +32,10 @@ const columns = [
   }),
   columnHelper.accessor('power_V', {
     header: 'Volts',
-    cell: info => `${info.getValue()}V`,
-    filterFn: 'equals',
     size: 80,
   }),
   columnHelper.accessor('power_mA', {
     header: 'Current',
-    cell: info => `${info.getValue()}mA`,
-    enableColumnFilter: false,
     size: 90,
   }),
   columnHelper.accessor('power_polarity', {
