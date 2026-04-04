@@ -91,6 +91,19 @@
     "doc": "/docs/pedals/boss_rv3.md"
   },
   {
+    "id": "dod_boneshaker",
+    "name": "DOD Boneshaker",
+    "type": "distortion",
+    "ad": "analog",
+    "power_V": "9V",
+    "power_mA": "20mA",
+    "power_polarity": "negative",
+    "bypass_type": "",
+    "midi": false,
+    "presets": false,
+    "doc": "/docs/pedals/dod_boneshaker.md"
+  },
+  {
     "id": "maxon_ad9pro",
     "name": "Maxon AD9Pro",
     "type": "delay",
