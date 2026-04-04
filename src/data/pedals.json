@@ -136,7 +136,7 @@
     "ad": "digital",
     "power_V": "9VAC",
     "power_mA": "1300mA",
-    "power_polarity": "negative",
+    "power_polarity": "",
     "bypass_type": "",
     "midi": true,
     "presets": false,
