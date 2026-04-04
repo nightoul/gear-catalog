@@ -2,8 +2,7 @@ export interface Pedal {
   id: string
   name: string
   type: string
-  digital: boolean
-  stereo: boolean
+  ad: string
   power_V: number
   power_mA: number
   power_polarity: string

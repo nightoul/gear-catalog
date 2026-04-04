@@ -20,22 +20,14 @@ const columns = [
   columnHelper.accessor('name', {
     header: 'Name',
     enableColumnFilter: false,
-    size: 180,
+    size: 200,
   }),
   columnHelper.accessor('type', {
     header: 'Type',
-    size: 120,
+    size: 100,
   }),
-  columnHelper.accessor('digital', {
-    header: 'Digital',
-    cell: info => info.getValue() ? 'Yes' : 'No',
-    filterFn: 'equals',
-    size: 90,
-  }),
-  columnHelper.accessor('stereo', {
-    header: 'Stereo',
-    cell: info => info.getValue() ? 'Yes' : 'No',
-    filterFn: 'equals',
+  columnHelper.accessor('ad', {
+    header: 'A/D',
     size: 90,
   }),
   columnHelper.accessor('power_V', {
@@ -52,7 +44,7 @@ const columns = [
   }),
   columnHelper.accessor('power_polarity', {
     header: 'Polarity',
-    size: 100,
+    size: 90,
   }),
   columnHelper.accessor('bypass_type', {
     header: 'Bypass',
@@ -62,7 +54,7 @@ const columns = [
     header: 'Presets',
     cell: info => info.getValue() ? 'Yes' : 'No',
     filterFn: 'equals',
-    size: 90,
+    size: 80,
   }),
   columnHelper.accessor('midi', {
     header: 'MIDI',
@@ -78,7 +70,7 @@ const booleanOptions = [
   { label: 'No', value: 'false' },
 ]
 
-const booleanColumns = new Set(['digital', 'stereo', 'presets', 'midi', 'expression_input'])
+const booleanColumns = new Set(['presets', 'midi'])
 
 export default function PedalTable() {
   const navigate = useNavigate()
