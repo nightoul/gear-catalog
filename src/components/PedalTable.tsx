@@ -36,6 +36,7 @@ const columns = [
   }),
   columnHelper.accessor('power_mA', {
     header: 'Current',
+    enableColumnFilter: false,
     size: 90,
   }),
   columnHelper.accessor('power_polarity', {
