@@ -40,6 +40,48 @@
     "midi": true,
     "presets": true,
     "doc": "/docs/pedals/bigsky.md"
+  },
+  {
+    "id": "ehx_canyon",
+    "name": "EHX Canyon",
+    "type": "delay",
+    "digital": true,
+    "stereo": false,
+    "power_V": 9,
+    "power_mA": 150,
+    "power_polarity": "negative",
+    "bypass_type": "buffered",
+    "midi": false,
+    "presets": false,
+    "doc": "/docs/pedals/canyon.md"
+  },
+  {
+    "id": "ehx_memory_man_hazarai",
+    "name": "EHX Memory Man with Hazarai",
+    "type": "delay",
+    "digital": true,
+    "stereo": true,
+    "power_V": 9,
+    "power_mA": 200,
+    "power_polarity": "negative",
+    "bypass_type": "hard-wired",
+    "midi": false,
+    "presets": true,
+    "doc": "/docs/pedals/memoryman_hazarai.md"
+  },
+  {
+    "id": "boss_dm2w",
+    "name": "Boss DM-2W",
+    "type": "delay",
+    "digital": false,
+    "stereo": false,
+    "power_V": 9,
+    "power_mA": 35,
+    "power_polarity": "negative",
+    "bypass_type": "",
+    "midi": false,
+    "presets": false,
+    "doc": "/docs/pedals/boss_dm2w.md"
   }
   
 ]
