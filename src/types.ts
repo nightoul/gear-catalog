@@ -1,3 +1,7 @@
+export interface PedalDoc {
+  title: string
+  file: string
+}
 export interface Pedal {
   id: string
   name: string
@@ -9,5 +13,6 @@ export interface Pedal {
   bypass_type: string
   midi: boolean
   presets: boolean
-  doc: string
+  docs?: PedalDoc[]
 }
+

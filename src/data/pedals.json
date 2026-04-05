@@ -10,7 +10,10 @@
     "bypass_type": "switchable",
     "midi": true,
     "presets": true,
-    "doc": "/docs/pedals/pitchfactor.md"
+    "docs": [
+      { "title": "Intro", "file": "/docs/pedals/pitchfactor/01_intro.md" },
+      { "title": "The Basics", "file": "/docs/pedals/pitchfactor/02_the_basics.md" }
+    ]
   },
   {
     "id": "ehx_pog2",
@@ -23,7 +26,10 @@
     "bypass_type": "true bypass",
     "midi": false,
     "presets": true,
-    "doc": "/docs/pedals/pog2.md"
+    "docs": [
+      { "title": "Intro", "file": "/docs/pedals/pog2/01_intro.md" },
+      { "title": "The Basics", "file": "/docs/pedals/pog2/02_the_basics.md" }
+    ]
   },
   {
     "id": "strymon_bigsky",
@@ -36,7 +42,10 @@
     "bypass_type": "switchable",
     "midi": true,
     "presets": true,
-    "doc": "/docs/pedals/bigsky.md"
+    "docs": [
+      { "title": "Intro", "file": "/docs/pedals/bigsky/01_intro.md" },
+      { "title": "The Basics", "file": "/docs/pedals/bigsky/02_basics.md" }
+    ]
   },
   {
     "id": "ehx_canyon",
@@ -49,7 +58,10 @@
     "bypass_type": "buffered",
     "midi": false,
     "presets": false,
-    "doc": "/docs/pedals/canyon.md"
+    "docs": [
+      { "title": "Intro", "file": "/docs/pedals/canyon/01_intro.md" },
+      { "title": "The Basics", "file": "/docs/pedals/canyon/02_the_basics.md" }
+    ]
   },
   {
     "id": "ehx_memory_man_hazarai",
@@ -62,7 +74,10 @@
     "bypass_type": "hard-wired",
     "midi": false,
     "presets": true,
-    "doc": "/docs/pedals/memoryman_hazarai.md"
+    "docs": [
+      { "title": "Intro", "file": "/docs/pedals/hazarai/01_intro.md" },
+      { "title": "The Basics", "file": "/docs/pedals/hazarai/02_the_basics.md" }
+    ]
   },
   {
     "id": "boss_dm2w",
@@ -75,7 +90,10 @@
     "bypass_type": "",
     "midi": false,
     "presets": false,
-    "doc": "/docs/pedals/boss_dm2w.md"
+    "docs": [
+      { "title": "Intro", "file": "/docs/pedals/dm2w/01_intro.md" },
+      { "title": "The Basics", "file": "/docs/pedals/dm2w/02_the_basics.md" }
+    ]
   },
   {
     "id": "boss_rv3",
@@ -88,7 +106,10 @@
     "bypass_type": "",
     "midi": false,
     "presets": false,
-    "doc": "/docs/pedals/boss_rv3.md"
+    "docs": [
+      { "title": "Intro", "file": "/docs/pedals/rv3/01_intro.md" },
+      { "title": "The Basics", "file": "/docs/pedals/rv3/02_the_basics.md" }
+    ]
   },
   {
     "id": "dod_boneshaker",
@@ -101,7 +122,10 @@
     "bypass_type": "true bypass",
     "midi": false,
     "presets": false,
-    "doc": "/docs/pedals/dod_boneshaker.md"
+    "docs": [
+      { "title": "Intro", "file": "/docs/pedals/boneshaker/01_intro.md" },
+      { "title": "The Basics", "file": "/docs/pedals/boneshaker/02_the_basics.md" }
+    ]
   },
   {
     "id": "maxon_ad9pro",
@@ -114,7 +138,10 @@
     "bypass_type": "",
     "midi": false,
     "presets": false,
-    "doc": "/docs/pedals/maxon_ad9pro.md"
+    "docs": [
+      { "title": "Intro", "file": "/docs/pedals/ad9pro/01_intro.md" },
+      { "title": "The Basics", "file": "/docs/pedals/ad9pro/02_the_basics.md" }
+    ]
   },
   {
     "id": "catalinbread_belle_epoch",
@@ -127,7 +154,10 @@
     "bypass_type": "switchable",
     "midi": false,
     "presets": false,
-    "doc": "/docs/pedals/belle_epoch.md"
+    "docs": [
+      { "title": "Intro", "file": "/docs/pedals/belleepoch/01_intro.md" },
+      { "title": "The Basics", "file": "/docs/pedals/belleepoch/02_the_basics.md" }
+    ]
   },
   {
     "id": "boss_ds2",
@@ -140,7 +170,10 @@
     "bypass_type": "",
     "midi": false,
     "presets": false,
-    "doc": "/docs/pedals/boss_ds2.md"
+    "docs": [
+      { "title": "Intro", "file": "/docs/pedals/ds2/01_intro.md" },
+      { "title": "The Basics", "file": "/docs/pedals/ds2/02_the_basics.md" }
+    ]
   },
   {
     "id": "digitech_whammy4",
@@ -153,7 +186,10 @@
     "bypass_type": "",
     "midi": true,
     "presets": false,
-    "doc": "/docs/pedals/digitech_whammy4.md"
+    "docs": [
+      { "title": "Intro", "file": "/docs/pedals/whammy4/01_intro.md" },
+      { "title": "The Basics", "file": "/docs/pedals/whammy4/02_the_basics.md" }
+    ]
   }
   
 ]
