@@ -12,14 +12,9 @@ export default function PedalDetail() {
   const [markdown, setMarkdown] = useState<string | null>(null)
 
   useEffect(() => {
-    console.log('pedal:', pedal)
-  console.log('docs:', pedal?.docs)
     if (!pedal?.docs?.length) return
-    console.log('activeDocIndex:', activeDocIndex)
     const file = pedal.docs[activeDocIndex].file
-    console.log('file:', file)
     const url = `${import.meta.env.BASE_URL}${file.replace(/^\//, '')}`
-    console.log('fetching:', url)
     fetch(url)
       .then(res => {
         if (!res.ok) throw new Error('not found')
@@ -37,17 +32,6 @@ export default function PedalDetail() {
       </div>
     )
   }
-
-  const specs = [
-    { label: 'Type', value: pedal.type },
-    { label: 'A/D', value: pedal.ad },
-    { label: 'Volts', value: String(pedal.power_V) },
-    { label: 'Current', value: String(pedal.power_mA) },
-    { label: 'Polarity', value: pedal.power_polarity ?? '—' },
-    { label: 'Bypass', value: pedal.bypass_type || '—' },
-    { label: 'Presets', value: pedal.presets ? 'Yes' : 'No' },
-    { label: 'MIDI', value: pedal.midi ? 'Yes' : 'No' },
-  ]
 
   return (
     <div className="page">
