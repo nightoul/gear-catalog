@@ -115,7 +115,7 @@ export default function PedalTable() {
   return (
     <div className="page">
       <div className="page-header">
-        <h1>Gear Catalog</h1>
+        <h1>Gear</h1>
         <div style={{ display: 'flex', gap: '0.5rem' }}>
           <button className="icon-btn" onClick={() => setColumnFilters([])}>↺</button>
           <button className="icon-btn" onClick={() => setShowDialog(true)}>⚙️</button>

@@ -4,7 +4,7 @@ import PedalDetail from './components/PedalDetail'
 
 function App() {
   return (
-    <BrowserRouter basename="/gear-catalog">
+    <BrowserRouter basename="/gear">
       <Routes>
         <Route path="/" element={<PedalTable />} />
         <Route path="/pedal/:id" element={<PedalDetail />} />
